@@ -1,6 +1,6 @@
 {
   "name": "undertaker",
-  "version": "",
+  "version": "1.0.0",
   "homepage": "https://github.com/types/npm-undertaker",
   "main": "index.d.ts",
   "globalDevDependencies": {
