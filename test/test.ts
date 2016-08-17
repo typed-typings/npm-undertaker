@@ -5,19 +5,19 @@ import Undertaker = require('undertaker');
 
 let taker = new Undertaker();
 
-taker.task('task1', function(cb: () => void){
+taker.task('task1', cb => {
     // do things
 
     cb(); // when everything is done
 });
 
-taker.task('task2', function(){
+taker.task('task2', () => {
     return fs.createReadStream('./myFile.js')
         .pipe(fs.createWriteStream('./myFile.copy.js'));
 });
 
-taker.task('task3', function(){
-    return new Promise(function(resolve, reject){
+taker.task('task3', () => {
+    return new Promise((resolve, reject) => {
         // do things
 
         resolve(); // when everything is done
