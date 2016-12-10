@@ -52,7 +52,7 @@ declare class Undertaker {
      * Optionally takes an object (options) and returns an object representing the tree of registered tasks.
      * @param options
      */
-    tree(options?: { deep?: boolean }): Node[] | string[];
+    tree(options?: { deep?: boolean }): Undertaker.Node[] | string[];
 
     /**
      * Takes a string or function (task) and returns a timestamp of the last time the task was run successfully.
