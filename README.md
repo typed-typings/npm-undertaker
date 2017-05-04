@@ -1,4 +1,6 @@
 # Typed undertaker
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-undertaker.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/types/npm-undertaker.svg?branch=master)](https://travis-ci.org/types/npm-undertaker)
 
 Typescript Typings for [undertaker](https://www.npmjs.com/package/undertaker).
